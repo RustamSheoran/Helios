@@ -1,0 +1,12 @@
+[package]
+name = "helios-container"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { workspace = true }
+nix = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+helios-shared = { path = "../shared" }
+helios-allocator = { path = "../allocator" }

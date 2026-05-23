@@ -1,0 +1,10 @@
+[package]
+name = "helios-shell"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { workspace = true }
+nix = { workspace = true }
+helios-shared = { path = "../shared" }
+helios-allocator = { path = "../allocator" }

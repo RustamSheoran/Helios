@@ -1,0 +1,8 @@
+[package]
+name = "helios-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helios-allocator = { path = "../allocator" }
+helios-shared = { path = "../shared" }

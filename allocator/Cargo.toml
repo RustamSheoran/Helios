@@ -1,0 +1,8 @@
+[package]
+name = "helios-allocator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { workspace = true }
+helios-shared = { path = "../shared" }
